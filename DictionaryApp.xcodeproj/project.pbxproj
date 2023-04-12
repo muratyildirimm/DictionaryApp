@@ -118,6 +118,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		139621E829E6AF3400BD6393 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				135E16D229DF73DF007A4279 /* DictionaryApp-Bridging-Header.h */,
+				135E16E329DF7426007A4279 /* dictionary.sqlite */,
+				135E16DB29DF73DF007A4279 /* FMDatabase.h */,
+				135E16D929DF73DF007A4279 /* FMDatabase.m */,
+				135E16D729DF73DF007A4279 /* FMDatabaseAdditions.h */,
+				135E16DC29DF73DF007A4279 /* FMDatabaseAdditions.m */,
+				135E16D429DF73DF007A4279 /* FMDatabasePool.h */,
+				135E16D829DF73DF007A4279 /* FMDatabasePool.m */,
+				135E16D529DF73DF007A4279 /* FMDatabaseQueue.h */,
+				135E16D329DF73DF007A4279 /* FMDatabaseQueue.m */,
+				135E16D629DF73DF007A4279 /* FMDB.h */,
+				135E16DD29DF73DF007A4279 /* FMResultSet.h */,
+				135E16DA29DF73DF007A4279 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		139621E929E6AF5100BD6393 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				13FA0A5C29DF1D9C00A08895 /* WordTableViewCell.swift */,
+				13FA0A3029DF0BF700A08895 /* ViewController.swift */,
+				13FA0A5E29DF1EA400A08895 /* DetailViewController.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		139621EA29E6AF7300BD6393 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				135E16E529DF7517007A4279 /* WordDao.swift */,
+				13FA0A6029DF203000A08895 /* Word.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		13FA0A2029DF0BF700A08895 = {
 			isa = PBXGroup;
 			children = (
@@ -142,32 +181,17 @@
 		13FA0A2B29DF0BF700A08895 /* DictionaryApp */ = {
 			isa = PBXGroup;
 			children = (
-				135E16E329DF7426007A4279 /* dictionary.sqlite */,
-				135E16DB29DF73DF007A4279 /* FMDatabase.h */,
-				135E16D929DF73DF007A4279 /* FMDatabase.m */,
-				135E16D729DF73DF007A4279 /* FMDatabaseAdditions.h */,
-				135E16DC29DF73DF007A4279 /* FMDatabaseAdditions.m */,
-				135E16D429DF73DF007A4279 /* FMDatabasePool.h */,
-				135E16D829DF73DF007A4279 /* FMDatabasePool.m */,
-				135E16D529DF73DF007A4279 /* FMDatabaseQueue.h */,
-				135E16D329DF73DF007A4279 /* FMDatabaseQueue.m */,
-				135E16D629DF73DF007A4279 /* FMDB.h */,
-				135E16DD29DF73DF007A4279 /* FMResultSet.h */,
-				135E16DA29DF73DF007A4279 /* FMResultSet.m */,
-				13FA0A2C29DF0BF700A08895 /* AppDelegate.swift */,
+				1347D9CB29E03BEE00AE21A7 /* Constant.swift */,
+				1347D9C929E03A8E00AE21A7 /* StoryBoard.swift */,
 				13FA0A2E29DF0BF700A08895 /* SceneDelegate.swift */,
-				13FA0A3029DF0BF700A08895 /* ViewController.swift */,
-				13FA0A5C29DF1D9C00A08895 /* WordTableViewCell.swift */,
-				135E16E529DF7517007A4279 /* WordDao.swift */,
-				13FA0A5E29DF1EA400A08895 /* DetailViewController.swift */,
-				13FA0A6029DF203000A08895 /* Word.swift */,
+				13FA0A2C29DF0BF700A08895 /* AppDelegate.swift */,
+				139621EA29E6AF7300BD6393 /* Model */,
+				139621E929E6AF5100BD6393 /* Scene */,
+				139621E829E6AF3400BD6393 /* FMDB */,
 				13FA0A3229DF0BF700A08895 /* Main.storyboard */,
 				13FA0A3529DF0BF800A08895 /* Assets.xcassets */,
 				13FA0A3729DF0BF800A08895 /* LaunchScreen.storyboard */,
 				13FA0A3A29DF0BF800A08895 /* Info.plist */,
-				135E16D229DF73DF007A4279 /* DictionaryApp-Bridging-Header.h */,
-				1347D9C929E03A8E00AE21A7 /* StoryBoard.swift */,
-				1347D9CB29E03BEE00AE21A7 /* Constant.swift */,
 			);
 			path = DictionaryApp;
 			sourceTree = "<group>";

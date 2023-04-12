@@ -1,9 +1,3 @@
-//
-//  DetailViewController.swift
-//  DictionaryApp
-//
-//  Created by Murat Yıldırım on 6.04.2023.
-//
 
 import UIKit
 
@@ -19,15 +13,7 @@ class DetailViewController: UIViewController {
         print("Data did not come")
         return
       }
-      
         englishLabel.text = word.english
         turkishLabel.text = word.turkish
-      
-      
-    
-
     }
-    
-
-
 }

@@ -4,14 +4,12 @@ import Foundation
 class WordDao {
   
   let db : FMDatabase?
-  
-  // Copy databes to phone
+  // Copy database to phone
   init() {
     let targetPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
     let databaseURL = URL(fileURLWithPath: targetPath).appendingPathComponent(Database.dbFullName.rawValue)
     db = FMDatabase(path: databaseURL.path)
   }
-  
   
   func copyDatabase(){
     let bundlePath = Bundle.main.path(forResource: Database.dbName.rawValue, ofType: Database.dbExtension.rawValue)
@@ -28,9 +26,7 @@ class WordDao {
         print(error)
       }
     }
-    
   }
-  
   
   func getAllWord() -> [Word] {
     db?.open()
@@ -69,8 +65,4 @@ class WordDao {
     db?.close()
     return words
   }
-  
-
-  
-  
 }
