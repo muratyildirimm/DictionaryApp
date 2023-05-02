@@ -120,6 +120,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		136E49032A01462000888F89 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				1347D9CB29E03BEE00AE21A7 /* Constant.swift */,
+				1347D9C929E03A8E00AE21A7 /* StoryBoard.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 		139621E929E6AF5100BD6393 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,10 +193,9 @@
 		13FA0A2B29DF0BF700A08895 /* DictionaryApp */ = {
 			isa = PBXGroup;
 			children = (
-				1347D9CB29E03BEE00AE21A7 /* Constant.swift */,
-				1347D9C929E03A8E00AE21A7 /* StoryBoard.swift */,
-				13FA0A2E29DF0BF700A08895 /* SceneDelegate.swift */,
 				13FA0A2C29DF0BF700A08895 /* AppDelegate.swift */,
+				13FA0A2E29DF0BF700A08895 /* SceneDelegate.swift */,
+				136E49032A01462000888F89 /* Constant */,
 				13BA415129E8096D0001105E /* FMDB */,
 				139621EA29E6AF7300BD6393 /* Model */,
 				139621E929E6AF5100BD6393 /* Scene */,
