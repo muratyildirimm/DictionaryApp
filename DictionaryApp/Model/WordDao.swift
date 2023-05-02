@@ -1,7 +1,7 @@
 
 import Foundation
 
-class WordDao {
+final class WordDao {
   
   let db : FMDatabase?
   // Copy database to phone
