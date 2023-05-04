@@ -3,7 +3,7 @@ import Foundation
 
 final class WordDao {
   
-  let db : FMDatabase?
+  private let db : FMDatabase?
   // Copy database to phone
   init() {
     let targetPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
@@ -11,7 +11,7 @@ final class WordDao {
     db = FMDatabase(path: databaseURL.path)
   }
   
-  func copyDatabase(){
+  private func copyDatabase(){
     let bundlePath = Bundle.main.path(forResource: Database.dbName.rawValue, ofType: Database.dbExtension.rawValue)
     let targetPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
     let fileManager = FileManager.default

@@ -2,7 +2,7 @@
 import UIKit
 
 class WordTableViewCell: UITableViewCell {
-
+  // MARK: IBOutlet
   @IBOutlet weak var englishLabel: UILabel!
   @IBOutlet weak var turkishLabel: UILabel!
   
